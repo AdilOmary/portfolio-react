@@ -1,10 +1,10 @@
 import React from 'react';
 import './body.css';
-import About from './about/index';
-import Projects from './projects/index';
-import Skills from './skills/index';
-import Work from './work/index';
-import Contact from './contact/index';
+import About from './about/about';
+import Projects from './projects/projects';
+import Skills from './skills/skills';
+import Work from './work/work';
+import Contact from './contact/contact';
 
 
 
