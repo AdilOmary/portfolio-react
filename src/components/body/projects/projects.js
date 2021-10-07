@@ -1,10 +1,20 @@
 import React from 'react'
+import { ProjectsData } from '../../data/projects';
+import ProjectCard from './project-card'
 import './projects.css'
 
 function Projects() {
-  return <div className='projects'>
-    <label> Projects</label>
-  </div>
+  const data = ProjectsData
+  return (
+    <div className='projects'>
+      <label className='section-title'> Projects</label>
+      <div>
+        {data.map((project)=> {
+          return <ProjectCard project={project} />;
+        })}
+      </div>
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;
