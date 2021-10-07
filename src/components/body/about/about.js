@@ -1,8 +1,9 @@
 import React from 'react'
 import './about.css'
+import SocialContact from '../../common/socials-contact/social-contact'
 
 function About() {
-  return <div className='about'>
+  return (<div className='about'>
     <div className='about-top'>
 
       <div className='about-info'>
@@ -17,10 +18,10 @@ function About() {
           className='profile-picture' alt=''
          />
       </div>
-
     </div>
-    <div className='about-bottom'>This is contact</div>
+    <SocialContact />
   </div>
+  );
 }
 
 export default About
