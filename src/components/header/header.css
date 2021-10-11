@@ -9,7 +9,7 @@
 
 .menu{
   display:flex;
-  background-color: white;
+  background-color: #FAF9F6;
   flex: 1;
   justify-content: flex-end;
 }

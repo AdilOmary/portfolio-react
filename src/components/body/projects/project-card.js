@@ -31,10 +31,11 @@ function ProjectCard({project}) {
               <label className='tag'>{tag}</label>
               );
           })}
-          }
         </div>
       </div>
-      <img src={project.image} className='project-photo' alt="" />
+        <a href={project.github}>
+        <img src={project.image} className='project-photo' alt="" />
+      </a>
     </div>
    )
 }
